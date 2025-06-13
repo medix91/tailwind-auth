@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Login from "../pages/Login"
 import Signup from "../pages/Signup"
 import NotFound from "../pages/NotFound"
+import ForgotPassword from "../pages/ForgotPassword"
 
 
 export default function AppRoutes() {
@@ -11,6 +12,7 @@ export default function AppRoutes() {
         <Route path="/" element={<Login />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/forgot-password" element={<ForgotPassword />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
