@@ -7,9 +7,11 @@ import Separator from "../components/Separator";
 import SocialButtons from "../components/SocialButton";
 import AuthLayout from "../layout/AuthLayout";
 
+
 export default function Login() {
   return (
     <AuthLayout>
+
       <AuthCard>
         <h1 className="text-2xl font-bold text-center mb-6">Connexion</h1>
         <form className="space-y-4">
@@ -30,6 +32,7 @@ export default function Login() {
         <SocialButtons />
         <FormLink to="/signup" text="Pas encore inscrit ? Créez un compte" />
       </AuthCard>
+
     </AuthLayout>
   )
 }

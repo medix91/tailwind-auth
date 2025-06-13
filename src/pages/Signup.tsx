@@ -9,6 +9,7 @@ import AuthLayout from "../layout/AuthLayout";
 export default function Signup() {
   return (
     <AuthLayout>
+          
       <AuthCard>
         <h1 className="text-2xl font-bold text-center mb-6">Créer un compte</h1>
 
@@ -36,6 +37,7 @@ export default function Signup() {
 
         <FormLink to="/login" text="Déjà un compte ? Connectez-vous" />
       </AuthCard>
+
     </AuthLayout>
   )
 }

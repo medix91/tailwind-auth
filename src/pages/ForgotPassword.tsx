@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { FiSend } from 'react-icons/fi'
+
 import AuthLayout from '../layout/AuthLayout'
 import AuthCard from '../components/AuthCard'
 import Input from '../components/Input'
