@@ -19,7 +19,8 @@ const config: Config = {
         },
       },
       fontFamily: {
-        sans: ['Poppins', 'sans-serif'],
+        
+        sans: ['Urbanist', 'sans-serif'],
       },
       backgroundImage: {
         'auth-gradient': 'linear-gradient(to right, #38BDF8, #2563EB)',
