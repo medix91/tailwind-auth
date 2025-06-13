@@ -1,0 +1,9 @@
+/* src/styles/globals.css */
+
+html, body {
+  @apply font-sans bg-gray-50 text-gray-900;
+}
+
+input, button {
+  @apply outline-none focus:outline-none;
+}
